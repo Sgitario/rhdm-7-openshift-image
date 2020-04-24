@@ -860,7 +860,7 @@ objects:
             value: "${KIE_MBEANS}"
 ## OpenShift Enhancement BEGIN
           - name: KIE_SERVER_CONTROLLER_OPENSHIFT_ENABLED
-            value: "false"
+            value: "true"
           - name: KIE_SERVER_CONTROLLER_OPENSHIFT_GLOBAL_DISCOVERY_ENABLED
             value: "${KIE_SERVER_CONTROLLER_OPENSHIFT_GLOBAL_DISCOVERY_ENABLED}"
           - name: KIE_SERVER_CONTROLLER_OPENSHIFT_PREFER_KIESERVER_SERVICE
