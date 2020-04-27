@@ -1106,7 +1106,7 @@ objects:
           - name: KIE_SERVER_CONTROLLER_SERVICE
             value: "${APPLICATION_NAME}-rhdmcentr"
           - name: KIE_SERVER_CONTROLLER_PROTOCOL
-            value: "ws"
+            value: "http"
           - name: KIE_SERVER_ID
             valueFrom:
               fieldRef:
