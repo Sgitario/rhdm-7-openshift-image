@@ -1106,6 +1106,10 @@ objects:
             value: "${PROMETHEUS_SERVER_EXT_DISABLED}"
           - name: KIE_SERVER_BYPASS_AUTH_USER
             value: "${KIE_SERVER_BYPASS_AUTH_USER}"
+          - name: KIE_SERVER_CONTROLLER_SERVICE
+            value: "${APPLICATION_NAME}-rhdmcentr"
+          - name: KIE_SERVER_CONTROLLER_PROTOCOL
+            value: "http"
           - name: KIE_SERVER_ID
             valueFrom:
               fieldRef:
